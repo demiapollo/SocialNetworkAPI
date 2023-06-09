@@ -1,5 +1,6 @@
 const { User, Thought } = require("../models");
 
+
 const userController = {
   // get all users
   getAllUsers(req, res) {
@@ -47,7 +48,10 @@ const userController = {
   createUser({ body }, res) {
     User.create(body)
       .then((dbUserData) => res.json(dbUserData))
-      .catch((err) => res.json(err));
+      .catch((err) => {
+        console.error(err);
+        res.status(500).json({ error: 'An error occurred while creating the user.' });
+      });
   },
 
   // update user by id
