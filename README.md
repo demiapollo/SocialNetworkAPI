@@ -30,11 +30,11 @@ npm start
 
 This app is created using
 
--JavaScript,
--Node.js,
--Express.js,
--MongoDB, and
--Mongoose.
+- JavaScript,
+- Node.js,
+- Express.js,
+- MongoDB, and
+- Mongoose.
 
 ### Demo
 
