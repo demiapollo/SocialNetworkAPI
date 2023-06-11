@@ -38,7 +38,7 @@ This app is created using
 
 ### Demo
 
-[Demo Video](https://www.loom.com/share/3877fdd57fd44be4b2383bb5781acdd5)
+[Demo Video](https://www.loom.com/share/1939bd8496454357ae5aee6177cefccb)
 
 ### License
 
